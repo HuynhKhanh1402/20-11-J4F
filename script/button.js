@@ -1,6 +1,6 @@
 var button = document.getElementById('playBut')
 button.onclick = function() {
-    var audio = new Audio("./resource/sound.mp3")
+    var audio = new Audio("./resource/hac_ho.mp3")
     audio.loop = true
     audio.play()
     document.getElementById("button").remove()
